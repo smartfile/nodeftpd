@@ -112,16 +112,17 @@
   },
   "dependencies": {
     "dateformat": "1.0.7-1.2.3",
+    "lock": "^1.1.0",
     "stat-mode": "^0.2.1"
   },
   "devDependencies": {
     "async": "~0.1.15",
     "collect-stream": "^1.1.1",
     "eslint": "^7.28.0",
+    "ftp": "^0.3.10",
     "istanbul": "~0.2.4",
     "jsftp": "^1.5.4",
-    "mocha": "^2.3.4",
-    "should": "~3.1.2",
-    "ftp": "^0.3.10"
+    "mocha": "^2.5.3",
+    "should": "~3.1.2"
   }
 }
