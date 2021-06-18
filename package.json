@@ -112,6 +112,7 @@
   },
   "dependencies": {
     "dateformat": "1.0.7-1.2.3",
+    "lock": "^1.1.0",
     "stat-mode": "^0.2.1"
   },
   "devDependencies": {
