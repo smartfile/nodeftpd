@@ -1,6 +1,7 @@
 {
   "env": {
-    "node": true
+    "node": true,
+    "es6": true,
   },
   "rules": {
     "no-cond-assign": 1,                  // disallow assignment in conditional expressions
@@ -46,7 +47,7 @@
     "no-caller": 1,                       // disallow use of arguments.caller or arguments.callee
     "no-div-regex": 1,                    // disallow division operators explicitly at beginning of regular expression
     "no-else-return": 0,                  // disallow else after a return in an if
-    "no-empty-label": 1,                  // disallow use of labels for anything other then loops and switches
+    "no-labels": 1,                       // disallow use of labels for anything other then loops and switches
     "no-eq-null": 0,                      // disallow comparisons to null without a type-checking operator
     "no-eval": 1,                         // disallow use of eval()
     "no-extend-native": 1,                // disallow adding to native types
@@ -54,7 +55,6 @@
     "no-fallthrough": 1,                  // disallow fallthrough of case statements
     "no-floating-decimal": 1,             // disallow the use of leading or trailing decimal points in numeric literals
     "no-implied-eval": 1,                 // disallow use of eval()-like methods
-    "no-labels": 1,                       // disallow use of labeled statements
     "no-iterator": 1,                     // disallow usage of __iterator__ property
     "no-lone-blocks": 1,                  // disallow unnecessary nested blocks
     "no-loop-func": 0,                    // disallow creation of functions within loops
@@ -141,7 +141,7 @@
     "quote-props": [1, "as-needed"],      // require quotes around object literal property names
     "semi": 1,                            // require or disallow use of semicolons instead of ASI
     "sort-vars": 0,                       // sort variables within the same declaration block
-    "space-after-keywords": 1,            // require a space after certain keywords
+    "keyword-spacing": 1,                 // require a space after certain keywords
     "space-before-blocks": 1,             // require a space before blocks
     "space-before-function-paren": [      // disallow a space before function parenthesis
       1, "never"
@@ -154,7 +154,6 @@
     ],
     "space-in-parens": 1,                 // require or disallow spaces inside parentheses
     "space-infix-ops": 1,                 // require spaces around operators
-    "space-return-throw-case": 1,         // require a space after return, throw, and case
     "space-unary-ops": 1,                 // require a space around word operators such as typeof
     "max-nested-callbacks": 0,            // specify the maximum depth callbacks can be nested
     "one-var": [1, "never"],              // allow just one var statement per function
